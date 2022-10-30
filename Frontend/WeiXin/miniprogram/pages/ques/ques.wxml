@@ -1,0 +1,19 @@
+<!--pages/ques/ques.wxml-->
+<view class="background"> 
+<view class="container2">
+  <view class="centerWord">分数：{{score}}</view>
+</view>
+<view class="container3">
+    <view class="label">
+        {{que[no].quiz}}
+    </view>
+</view>
+<view class="container4">
+<button class="btn" data-ansvalue="1" bindtap="answer"><view class="answ">A:{{que[no].options[0]}}</view></button>
+<button class="btn" data-ansvalue="2" bindtap="answer"><view class="answ">B:{{que[no].options[1]}}</view></button>
+<button class="btn" data-ansvalue="3" bindtap="answer"><view class="answ">C:{{que[no].options[2]}}</view></button>
+<button class="btn" data-ansvalue="4" bindtap="answer"><view class="answ">D:{{que[no].options[3]}}</view></button>
+</view>
+</view>
+
+

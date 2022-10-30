@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="background">
+  <view class="font">答题对战</view>
+    <view class="font0">Question Match</view>
+    <view class="font1">让兴趣不再孤单</view>
+    <view class="font2">让爱好不再流浪</view>
+<button class="btn"  bindtap="start">开始游戏</button>
+</view>

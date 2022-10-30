@@ -1,0 +1,24 @@
+<!--pages/over/over.wxml-->
+<view class="background">
+  <view class="container"></view>
+    <view class="win">66666</view>
+    <view class="player">
+      <view class="font0">
+        <view class="font01">最终得分:</view>
+        <view class="font02">{{score}}</view>
+      </view>
+      <view class="font1">
+        <view class="font11">答对题数:</view>
+        <view class="font12">{{score}}</view>
+      </view>
+      <view class="font2">
+        <view class="font21">答错题数:</view>
+        <view class="font22">{{leng-score}}</view>
+      </view>
+      <view class="font3">胜败乃兵家常事</view>
+    </view>
+    <view class="btn">
+     <button class="btnstyle" bindtap="rtn">
+      <view class="font4">返回主页</view>
+      </button></view>
+  </view>

@@ -1,0 +1,84 @@
+/* pages/ques/ques.wxss */
+.background {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  background-image: url(https://t7.baidu.com/it/u=1595072465,3644073269&fm=193&f=GIF);
+}
+.centerWord{
+  width: 100%;
+  position: absolute;
+  top:2%;
+  text-align: center;
+  color: #fdfdfd;
+}
+.container2{
+  display: flex;
+  width: 100%;
+  height: 10%;
+  background-color: #000000;
+  opacity: 0.7;
+  border-radius: 40rpx 40rpx 40rpx 40rpx;
+}
+.container3{
+  display: flex;
+  margin-top: 1%;
+  width: 100%;
+  height: 30%;
+  background-color: #000000;
+  opacity: 0.8;
+  justify-content: center;
+  border-radius: 30rpx 30rpx 0 0;
+}
+.label{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 46rpx;
+  overflow-wrap: normal;
+  justify-content: center;
+  line-height: 110%;
+  overflow: auto;
+  color: #fff;
+}
+.container4{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 75%;
+  background-color: #000000;
+  opacity: 0.8;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  overflow-wrap: break-word;
+  justify-content: center;
+  width: 50%;
+  height: 110rpx;
+  margin-top: 6%;
+  color: black;
+  font-size: 32rpx;
+  border-radius: 24rpx;
+  line-height: 100%;
+}
+
+.answ{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: scroll;
+  width: 80%;
+  height: 100%;
+  font-size: 36rpx;
+  letter-spacing: 4rpx;
+  line-height: 1.1;
+}
